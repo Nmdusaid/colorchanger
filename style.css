@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+cursor: pointer;
+  background-color: #000000;
+}
+
+
+.pick {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  gap: 10px;
+height: 700px;
+align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+
+}
+.heading{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px #ccbbbb;
+height: 100px;
+align-items: center;
+}
+
+#box1 { background-color: #886e68; border-radius: 4px }
+#box2 { background-color: #33FF57;border-radius: 4px }
+#box3 { background-color: #3357FF; border-radius: 4px}
+#box4 { background-color: #FF33A6; border-radius: 4px}
+#box5 { background-color: #33FFD7; border-radius: 4px}
+#box6 { background-color: #FFD733; border-radius: 4px}
+#box7 { background-color: #7F33FF; border-radius: 4px}
+#box8 { background-color: #FF5733; border-radius: 4px}
